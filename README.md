@@ -48,4 +48,10 @@
   * The css file, website.css is basically use to inhance the UI of the website. This file help in selecting the background of the website. Font sizes for Website title, Different Labels. It is also useful for creating scale selection containg values from 1 to 5 which is use in the BHK configuration and Bath configuration.
   * The javascript file, website.js is used from proper functioning of the website. On clicking the button, it takes total_sqft area, location, no_bhk and no_bath as input and all prediction model from the server.py file and finally return the evatuated prince in Lakhs.
 
+***Outcome:  Linear regression algorithm gave the best score and hence used for doing actual prediction***
 
+| model |	Best_score|	Best_params|
+| ---      | ---       | ----- |
+linear_regression|	0.821906|	{'normalize': False}|
+lasso|	0.703225|	{'alpha': 1, 'selection': 'cyclic'}|
+decision_tree|	0.755886|	{'criterion': 'mse', 'splitter': 'best'}|
