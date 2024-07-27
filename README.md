@@ -45,10 +45,9 @@ The objective of the project is to create a machine learning model. We are doing
   * This file also call forecast_home_price function using GET and POST request of the API. This function takes input from user end and call get_evaluated_price which return the response to frontend UI.
   * The util.py file simply load the data from the column.json file when fetch_loc_name function request is generated from the server.py file. It load the banglore_home_prices_model.pickle for evalution of price when forecast_home_price function request is called from server.py file.
   ### frontend_ui Directory
-  * This directory contain three file namely website.html, website.css and website.js. These three file uses three different language for developing the website UI, namely HTML, CSS and JavaScript.
-  * The html file, website.html contain the basic structure of the website such as Website name, Carpet Area and it enter space, BHK configuration and enter value. Same goes for the Bath configuration, then the locality where the user get drop down menu for location selection and finally the button.
-  * The css file, website.css is basically use to inhance the UI of the website. This file help in selecting the background of the website. Font sizes for Website title, Different Labels. It is also useful for creating scale selection containg values from 1 to 5 which is use in the BHK configuration and Bath configuration.
-  * The javascript file, website.js is used from proper functioning of the website. On clicking the button, it takes total_sqft area, location, no_bhk and no_bath as input and all prediction model from the server.py file and finally return the evatuated prince in Lakhs.
+  * The directory contains three distinct files namely app.html, app.css, and app.js, each utilizing a different language for developing the website's user interface. HTML defines the structure and content of the webpage, CSS dictates its presentation and styling, while JavaScript provides interactive functionality and dynamic behavior to enhance user experience.
+  * The css file, app.css is basically use to inhance the UI of the website. This file help in selecting the background of the website. Font sizes for Website title, Different Labels. It is also useful for creating scale selection containg values from 1 to 5 which is use in the BHK configuration and Bath configuration.
+  * The javascript file, app.js is used from proper functioning of the website. On clicking the button, it takes total_sqft area, location, no_bhk and no_bath as input and all prediction model from the server.py file and finally return the evatuated prince in Lakhs.
 
 ***Outcome:  Linear regression algorithm gave the best score and hence used for doing actual prediction***
 
