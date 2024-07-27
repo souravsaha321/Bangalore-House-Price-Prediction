@@ -8,7 +8,6 @@ The objective of the project is to create a machine learning model. We are doing
 ## Introduction
 * The project aim to predict rental house prices in Bangalore city, Karnataka. By combining Data Science techniques with web development skills, we’ve created a valuable resource for potential home buyers and real estate enthusiasts. 
 * Linear Regression is the choosen Algorithm for the fundamental technique in predictive model. The project demonstrates a comprehensive approach to predicting housing prices.
-* The project paper are published on International Journal for Reseach in Applied Science & Engineering Technology(IJRASET) under the authors - Ujjwal Jaiswal, Ayush Kumar, Deeptanil Das, Aryan Chakraborty, Aditya Vikram Sahana, Debmitra Ghosh and Nirbhay Mishra
 * The purpose of deploying this project is to gain practical knowledge in the field of Data Science and to make the fundamental strongs. The project provide many new information about the Data Analysis, Outlier Detection and Removal and many more. 
 
 
